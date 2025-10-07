@@ -1,7 +1,5 @@
 # Aplikasi Todo List - React & Vite
 
-Halo! Ini adalah project aplikasi todo list yang saya buat menggunakan React dan Vite. Aplikasinya cukup sederhana tapi mencakup fitur-fitur penting yang biasa ada di aplikasi todo modern.
-
 ## Fitur Utama
 
 - Bisa nambah todo baru (tinggal ketik terus enter)
@@ -15,13 +13,8 @@ Halo! Ini adalah project aplikasi todo list yang saya buat menggunakan React dan
 ## Teknologi yang Dipake
 
 Untuk bikin aplikasi ini, saya pake beberapa teknologi:
-
-- **React 18** - buat bikin komponen UI
 - **Vite** - tooling yang jauh lebih cepet dari CRA
-- **Tailwind CSS** - buat styling, jadi ga perlu nulis CSS banyak-banyak
-- **Lucide React** - icon library yang ringan
-- **ESLint** - biar kodenya rapi dan konsisten
-
+- **CSS Biasa** - buat styling
 ## Cara Install di Komputer Lo
 
 ### Yang Harus Ada Dulu
@@ -56,7 +49,7 @@ npm run dev
 ```
 
 6. **Buka browser dan akses:**
-   - http://localhost:3000
+   
 
 Harusnya langsung jalan deh!
 
@@ -174,8 +167,6 @@ Saya pake Tailwind classes buat handle responsive-nya, jadi ga perlu nulis media
 ## Styling
 
 Buat styling saya kombinasi beberapa cara:
-
-1. **Tailwind utility classes** - ini yang paling banyak dipake
 2. **CSS biasa di App.css** - buat style custom yang ga ada di Tailwind
 3. **Inline style** - cuma buat beberapa case khusus aja
 
